@@ -1,0 +1,115 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hbel-hou <hbel-hou@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/02/12 15:29:36 by hbel-hou          #+#    #+#             */
+/*   Updated: 2022/02/14 11:01:00 by hbel-hou         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+:root{
+    --main-color : #2196f3;
+}
+
+.name {
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(176, 179, 172);
+
+}
+
+.message{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(42, 7, 7);
+    padding: 20px 0;
+}
+
+.message span{
+    color: rgb(12, 123, 197);
+}
+
+.message span::before{
+    content: "[ ";
+}
+.message span::after{
+    content: " ]";
+}
+
+.start{
+    color: white;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 12px 0;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #2196f3;
+}
+
+.restart{
+    color: white;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 12px 0;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #2196f3;
+    display: none;
+}
+
+.the-word {
+    color: white;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 12px 0;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #2196f3;
+}
+
+.upcoming-words{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+}
+
+.control {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+}
+
+.input {
+    height: 50px;
+    width: 99%;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    display: inline-table;
+    padding: 15px;
+    background-color: #2196f3;
+    color: ivory;
+    margin: 8px;
+}
